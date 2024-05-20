@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+    font-family: Rubik;
+}
+body{
+    background-color: hsl(226, 43%, 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+div {
+    width: 100%;
+}
+
+.contener {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem;
+}
+.data-name {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.card-name {
+    background-color: hsl(246, 80%, 60%); 
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border-radius: .5rem;
+
+    
+}
+.card-data {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: .5rem;
+    height: 7.5rem;
+    padding: 2rem;
+    position: relative;
+    
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.card-content {
+    border-radius: .5rem;
+    height: 10rem;
+   
+}
+.orange {
+    background-color: hsl(43, 84%, 65%);
+}
+.red {
+    background-color: hsl(15, 100%, 70%);
+}
+.blue {
+    background-color: hsl(195, 74%, 62%);
+
+}
+.green {
+    background-color: hsl(145, 58%, 55%);
+
+}
+.violet {
+    background-color: hsl(264, 64%, 52%);
+}
+.user-img {
+    width: 4.5rem;
+    border-radius: 100%;
+    border-style: solid;
+
+}
+.img-card {
+    z-index: 0;
+    height: 3.9rem;
+    object-fit: none;
+
+}
+.ability {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hours {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+    
+    
+}
+strong {
+    font-size: 33px;
+    font-weight: inherit;
+}
+h6 {
+    font-size: 18px;
+    font-weight: bolder;
+}
+h1 {
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+p {
+    font-weight: 100;
+    opacity: .6;
+}
+.forreport {
+    font-size: .89rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    position: relative;
+    height: 2.5rem;
+}
+.img-card.violet {
+    height: 5rem;
+}
+.jeremi {
+    height: 206;
+}
+.card-data.data-name {
+    height: 4.3rem;
+}
+.img-d {
+    width: 9rem;
+}
+
+@media only screen and (min-width:1440px) {
+    .card-content {
+        width: 30%;
+    }
+    
+}
